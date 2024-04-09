@@ -1,0 +1,20 @@
+# @package agent
+_target_: agent.si.SIAgent
+name: si
+num_obs: ??? # to be specified later
+num_actions: ??? # to be specified later
+hidden_size: 200
+device: ${device}
+lr: 1e-4
+gamma: 0.9
+use_tb: ${use_tb}
+use_wandb: ${use_wandb}
+batch_size: 1
+tau: 0.01
+nsteps: 1
+update_every_steps: 1
+si_importance: 30
+epsilon: 0.1 
+max_eps: 0.9
+min_eps: 0.1
+eps_decay: 0.9

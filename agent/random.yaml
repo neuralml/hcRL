@@ -1,0 +1,15 @@
+# @package agent
+_target_: agent.random.RandomAgent
+name: random
+num_obs: ??? # to be specified later
+num_actions: ??? # to be specified later
+hidden_size: 200
+device: ${device}
+lr: 1e-4
+gamma: 0.9
+use_tb: ${use_tb}
+use_wandb: ${use_wandb}
+batch_size: 32
+tau: 0.01
+nsteps: 1
+update_every_steps: 2
