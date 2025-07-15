@@ -1,7 +1,9 @@
 # hcRL
 
 Code and data for the paper:  
-**"Hippocampal networks support reinforcement learning in partially observable environments"**
+**"Hippocampus facilitates reinforcement learning under partial observability"**
+
+https://www.biorxiv.org/content/10.1101/2023.11.09.565503v4
 
 ---
 
