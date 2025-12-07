@@ -1,9 +1,9 @@
 # hcRL
 
 Code and data for the paper:  
-**"Hippocampus facilitates reinforcement learning under partial observability"**
+**"Hippocampus supports multi-task reinforcement learning under partial observability"**
 
-https://www.biorxiv.org/content/10.1101/2023.11.09.565503v4
+https://www.nature.com/articles/s41467-025-64591-9
 
 ---
 
@@ -59,4 +59,3 @@ Results are logged and tracked via Weights & Biases, if enabled.
 ## 4. License
 
 This project is licensed under the MIT License. See LICENSE for details.
-
